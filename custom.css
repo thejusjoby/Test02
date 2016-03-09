@@ -1,0 +1,47 @@
+#main{
+	padding-top: 0px;
+}
+#head{
+	
+}
+#logo{
+	margin-bottom: 20px;
+}
+
+.navbar-default{
+	background-color: black;
+}
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 10px;
+    border-right: 1px solid #DAD3D1;
+    border-left: 1px solid #DAD3D1;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #DAD3D1;
+    border-left-color: #DAD3D1;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+.control-left{
+	background-image: 'Task_1/assets/assets/arrowsmall.png';
+}
+
+
+.carousel-control {
+    position: absolute;
+    top: 50%; /* pushes the icon in the middle of the height */
+     z-index: 5;
+    display: inline-block;
+}
+.feat-head{
+	text-align: left;
+}
+
+
+
