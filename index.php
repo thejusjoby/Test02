@@ -216,8 +216,9 @@
        <!---Corporate Video--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">Corporate Video
-         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+         <button type="button" class="list-group-item">
+         <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/corporatevideo.png" />
+         &nbsp;&nbsp;&nbsp;Corporate Video</button>  
        </div>
     </div>
    
@@ -225,8 +226,9 @@
        <!---Brochure--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">Download Brochure
-         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+         <button type="button" class="list-group-item">
+         <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/downloadbrochure.png" width="20px"/>
+            &nbsp;&nbsp;&nbsp;Download Brochure</button>  
        </div>
     </div>
    
@@ -234,8 +236,9 @@
        <!---Testimonials--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">Testimonials
-         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+         <button type="button" class="list-group-item">
+         <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/testimonials.png" />
+         &nbsp;&nbsp;&nbsp;Testimonials</button>  
        </div>
     </div>
    </div> <!--Main div--->
