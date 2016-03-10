@@ -26,7 +26,7 @@
                 
                 <!---LOGO--->
            <span id="logo" class="col-lg-4 col-md-4 col-sm-4 pull-left">
-               <img src="Task_1/assets/assets/XD_screensaver.png" width="140px" height="80px" />
+               <img src="Task_1/assets/assets/XD_screensaver.png" width="100px" height="40px" />
             </span>
                          
                 <!---Language Selection--->         
