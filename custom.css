@@ -73,3 +73,7 @@ footer{
 	background-image: url("footer.png");
 	z-index: -20;
 }
+.foot{
+	margin-top: 10px;
+	
+}

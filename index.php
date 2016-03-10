@@ -333,8 +333,8 @@
      <div class="container">
      <div class="container-fluid">
          <div class="row">
-             <div>
-                 
+             <div class="col-lg-2 foot">
+                 <p class="lead">About Us</p>
              </div>
              
          </div>
