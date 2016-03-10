@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <?php include 'cdn.php'?>
+      <meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>XD Studio</title>
+        <meta name="description" content="">
+        <meta name="author" content="Sagarmoy">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">   
+        <link href="custom.css" rel="stylesheet" type="text/css" />
+         <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet"><!---bootstrap CSS-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script><!---bootstrap--->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script><!---Angular--->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!---jquery-->
+        
     </head>
     <body>
        <div id="main" class="container"> <!----MAIN---->
@@ -330,16 +344,129 @@
     <!-----------./ MOD 5----->
     <!----MOD 6 : THE FOOTER---->
  <footer>
-     <div class="container">
-     <div class="container-fluid">
-         <div class="row">
-             <div class="col-lg-2 foot">
-                 <p class="lead">About Us</p>
-             </div>
-             
-         </div>
-     </div>    
-     </div>
+     <div class="footer">
+        <div class="container">
+            <div class="row foot">
+        
+        <!----Column 1---- Footer--->
+            <div class="col-sm-2 col-lg-2 col-md-2">
+                <div class="foot-header">
+                    ABOUT US
+                </div>
+                <div class="foot-links">
+                    <a href="#">Who we are</a>
+                    <a href="#">Our Mission &amp; Values</a>
+                    <a href="#">Our Core Business</a>
+                    <a href="#">Board of Directors</a>
+                    <a href="#">Senior Management</a>
+                    <a href="#">Milestones</a>
+                    <a href="#">Awards</a>
+                    <a href="#">Customer Testimonials</a>
+                    <a href="#">Company Gives Foundation</a>
+                </div>
+            </div>
+        <!----Column 1---- Footer--->     
+            
+        
+        <!----Column 2---- Footer--->
+            <div class="col-sm-2 col-lg-2 col-md-2">
+                <div class="foot-header">
+                    OUR PROPERTIES
+                </div>
+                <div class="foot-links">
+                    <a href="#">Singapore</a>
+                    <a href="#">Australia</a>
+                    <a href="#">China</a>
+                    <a href="#">India</a>
+                    <a href="#">Japan</a>
+                    <a href="#">Korea</a>
+                    <a href="#">Malaysia</a>
+                    <a href="#">Vietnam</a>
+                    <a href="#">Others</a>
+                </div>
+            </div>
+        <!----Column 2---- Footer--->     
+         
+         <!----Column 3---- Footer--->
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="foot-header">
+                    OUR FUNDS
+                </div>
+                <div class="foot-links">
+                    <a href="#">A-Reit</a>
+                    <a href="#">a-iTrust</a>
+                    <a href="#">A-HTrust</a>
+                    <a href="#">Company India Development Trust</a>
+                    <a href="#">Company India Growth Program</a>
+                    <a href="#">Company China Commercial Fund</a>
+                    <a href="#">Company China Commercial Fund 2</a>
+                    <a href="#">Company China Business Parks Fund 2</a>
+                    <a href="#">Company China Business Parks Fund 4</a>
+                </div>
+            </div>
+        <!----Column 3---- Footer--->     
+        
+         <!----Column 4---- Footer--->
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="foot-header">
+                   e-Services
+                </div>
+                <div class="foot-links">
+                    <a href="#">Tenant Portal</a>
+                    <a href="#">SpaceToBe</a>
+                    <a href="#">Centralized CarkPark Access System</a>
+                </div>
+                <!---Part -2 Column 4--->
+                <div style="margin-top: 10px;" class="foot-header">
+                   NEWS
+                </div>
+                <div class="foot-links">
+                    <a href="#">News Room</a>
+                    <a href="#">Financial Info</a>
+                    <a href="#">Annual Reports</a>
+                    <a href="#">Media Contacts</a>
+                </div>
+            </div>
+        <!----Column 4---- Footer--->                  
+         
+         <!----Column 5--- CONTACTS---->
+         
+            <div class="col-sm-2 col-lg-2 col-md-2">
+                <div class="foot-header">
+                    CONTACT US
+                </div>
+                <div class="foot-header">
+                    JOIN US
+                </div>
+                <div class="foot-header">
+                    SUBSCRIBE
+                </div>
+                <div class="foot-header">
+                    USEFUL LINKS
+                </div>   
+            </div>
+         
+         <!---- . / Column 5--- CONTACTS---->
+            </div><!-----row--->
+          <hr style="background-color: black; color: black">  
+         
+         <!---Social bar---- using CSS Sprites---->
+         
+           <div class="row">
+            
+            <div class="col-lg-3 col-sm-3 col-md-3 social">
+               <div class="fb "><a href="#">&nbsp;</a></div>
+            </div>
+            
+            
+            </div>
+         
+         
+         <!---. / Social bar---- using CSS Sprites---->
+         
+            
+        </div> <!---Container---->
+     </div><!---Footer Container--->
      
  </footer>
  <!-----MOD 6 : THE FOOTER---->

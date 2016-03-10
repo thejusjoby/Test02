@@ -97,6 +97,8 @@ hr {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
+          color: black;
+          
 }
 pre {
   overflow: auto;
@@ -1148,7 +1150,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #000000;
+  opacity : 0.2;
 }
 .sr-only {
   position: absolute;
