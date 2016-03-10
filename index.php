@@ -211,14 +211,35 @@
     </div><!--- ./ About the Company--->
     
     <!-----Services of the Company---->
-   <div class="row">
-       <!---Brochure---> 
+   <div class="services">
+   <div class="col-lg-4 services">
+       <!---Corporate Video--->    
+        
     <div  class="list-group">
-         <button type="button" class="list-group-item">Read More 
+         <button type="button" class="list-group-item">Corporate Video
          <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
        </div>
     </div>
-    
+   
+   <div class="col-lg-4 services" >
+       <!---Brochure--->    
+        
+    <div  class="list-group">
+         <button type="button" class="list-group-item">Download Brochure
+         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+       </div>
+    </div>
+   
+   <div class="col-lg-4 services">
+       <!---Testimonials--->    
+        
+    <div  class="list-group">
+         <button type="button" class="list-group-item">Testimonials
+         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+       </div>
+    </div>
+   </div> <!--Main div--->
+    <!-----./Services of the Company---->
     
   </div><!---./.Thumb Project Rows--->
   
