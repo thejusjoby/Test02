@@ -1,9 +1,3 @@
-#main{
-	padding-top: 0px;
-}
-#head{
-	
-}
 #logo{
 	margin-bottom: 20px;
 }
@@ -43,5 +37,28 @@
 	text-align: left;
 }
 
+.divide-vertical {
+    margin-right: 5px;
+    border-right: 2px solid #DAD3D1;  
+}
 
-
+.text-black {
+	color : black;
+}
+.article-news{
+	color : #237A72;
+}
+.article-content{
+	overflow: hidden;
+	white-space: nowrap;
+}
+.thread {
+	font-weight: bold;
+}
+.article-date{
+	font-weight: 100;
+}
+.about{
+	/*company about*/
+	color : #237A72;
+}

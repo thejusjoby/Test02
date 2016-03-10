@@ -21,9 +21,9 @@
          <span class="col-lg-7">   
             <ul class="nav nav-pills">
                   <li role="presentation" class="active"><a href="#">English</a></li>
-                  <li role="presentation"><a href="#">Chinese</a></li>
-                  <li role="presentation"><a href="#">Russian</a></li>
-                  <li role="presentation"><a href="#">Hindi</a></li>
+                  <li role="presentation"><a href="#">什么</a></li>
+                  <li role="presentation"><a href="#">ماذا</a></li>
+                  <li role="presentation"><a href="#">什麼</a></li>
                 </ul>
          </span>
                 
@@ -116,19 +116,24 @@
             </span>
         </a>
     </div>
-        
+    </div>
       <!-----------------------./ MOD 4 The Carousel---------------->   
+    
+    
     <!-----------MOD 5 - The thumbnails------>
     
     <div class="container">
+
+  <!----ThumbNails Projects---->
         
-     <div class="container-fluid">
-<span class="feat-head"><h2>Featured Projects</h2></span>
-  <div class="row">
-  <div class="col-lg-8col-md-8 col-sm-8">
+    <div class="container-fluid">
+    <div class="row">     
+  <div class="col-lg-8col-md-8 col-sm-8"><!---Thumb Project Rows--->
    
+   <span><h1>Featured Project</h1></span>
    <div class="container-fluid"><!---Inside Company Content---->
-    <div class="row"> <!----Put thumbnail here----> 
+    <!----Put thumbnail here---->
+    <div class="row">  
        <span class="col-md-4">                      
         <div class="thumbnail">
           <img src="Task_1/assets/1_1_Home_v3_1/img01.jpg" alt="...">
@@ -143,6 +148,7 @@
          <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
        </div>
    </p>
+   <!---Thumb Button--->
           </div>
         </div>
         </span>
@@ -183,26 +189,114 @@
         </div>
         </div>
         </span>
+       
+       
+       
         
         <!---./thumbnails--->
     </div>
     </div>
     
-  </div><!---- Col-md-8--->
-</div>
-             </div>
-             
-             
-             
-         </div>
-     </div>
-        
-        
-        
-        
+    <!---About the Company--->
+    <div class="col-lg-11 col-md-11 col-sm-11">
+        <div class="about">
+            <h3>About the Ascendas Group</h3>
+            <p class="">
+                Company is Asia's leading provider of business space solutions with more than 30 years of experience.
+                Based in Singapore, Company has built a strong regional presence and serves a global clientele of 
+                over 2400 customers in 26 cities across 10 countries including Singapore, China, India, South Korea
+                and Vietnam.
+            </p>
+        </div>
+    </div><!--- ./ About the Company--->
+    
+    <!-----Services of the Company---->
+   <div class="row">
+       <!---Brochure---> 
+    <div  class="list-group">
+         <button type="button" class="list-group-item">Read More 
+         <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+       </div>
     </div>
     
     
+  </div><!---./.Thumb Project Rows--->
+  
+  <!----Contact Us Part---->
+  <div class="col-lg-4">
+      
+      <span class="col-md-9"> 
+      <h1>Contact Us</h1>                         
+        <div class="thumbnail">
+          <img src="Task_1/assets/1_1_Home_v3_1/contactus.jpg" alt="...">
+          
+       <!---Thumb Button--->
+           <p class="thumb-button">
+               <div  class="list-group">
+                   
+                 <button type="button" class="list-group-item">
+                      <img  style ="margin-right: 10px" class="pull-left" src="Task_1/assets/1_1_Home_v3_1/callus.png" width="20px" height="20px"/>
+                     <span class="divide-vertical"></span> 
+                 <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" />Call Us</button>  
+               </div>
+           </p>
+           
+           <p class="thumb-button">
+               <div  class="list-group">
+               
+                 <button style="background-color: #40E0D0" type="button" class="list-group-item">
+                  <img  style ="margin-right: 10px" class="pull-left" src="Task_1/assets/1_1_Home_v3_1/enquiry.png" width="20px" height="20px"/>
+                     <span class="divide-vertical"></span>     
+                      <span class="text-black">Submit Enquiry</span>
+                 <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+               </div>
+           </p>
+               
+           <p class="thumb-button">
+               <div  class="list-group">
+                 <button style="background-color: #40E0D0" type="button" class="list-group-item">
+                     <img  style ="margin-right: 10px" class="pull-left" src="Task_1/assets/1_1_Home_v3_1/suscribeascent.png" width="20px" height="20px"/>
+                     <span class="divide-vertical"></span> 
+                    <span class="text-black">Subscribe ASCENT</span>
+                 <img class="pull-right" src="Task_1/assets/assets/arrowbig.png" /></button>  
+               </div>
+           </p>    
+                
+        </div>
+        </span>
+        <!---The articles and news part--->
+        <div class="col-lg-12">
+          <span class="article-news"> 
+                <h4>Latest News</h4>
+                <div>
+                    <p class="thread">Something Something Something Something Something Something Something</p>
+                     <span class="article-date">                    
+                         <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                    </span>
+                </div>
+                <hr>
+                <div>
+                    <p class="thread">Something Something Something Something Something Something Something</p>
+                    <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                </div>
+                <hr>
+                <div>
+                    <p class="thread">Something Something Something Something Something Something Something</p>
+                    <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                </div>
+            </span>
+        </div><!--- ./ The articles and news part--->
+        
+        
+  </div> <!----../Contact Us Part--->
+    
+    <!---Printer Page--->
+  
+   
+  
+                </div>  <!----ThumbNails Projects ROW---->
+             </div> <!----ThumbNails Projects---->        
+         </div><!---- Below Carousel Container--->
     
     <!-----------./ MOD 5----->
     
