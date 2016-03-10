@@ -296,22 +296,24 @@
           <span class="article-news"> 
                 <h4>Latest News</h4>
                 <div>
-                    <p class="thread">Something Something Something Something Something Something Something</p>
+                    <p class="thread">Something Something Something Something Something</p>
                      <span class="article-date">                    
                          <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
                     </span>
                 </div>
                 <hr>
                 <div>
-                    <p class="thread">Something Something Something Something Something Something Something</p>
+                    <p class="thread">Something Something Something Something Something</p>
                     <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
                 </div>
                 <hr>
                 <div>
-                    <p class="thread">Something Something Something Something Something Something Something</p>
+                    <p class="thread">Something Something Something Something Something</p>
                     <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
                 </div>
             </span>
+            
+            
         </div><!--- ./ The articles and news part--->
         
         
@@ -326,9 +328,21 @@
          </div><!---- Below Carousel Container--->
     
     <!-----------./ MOD 5----->
-    
- 
- 
+    <!----MOD 6 : THE FOOTER---->
+ <footer>
+     <div class="container">
+     <div class="container-fluid">
+         <div class="row">
+             <div>
+                 
+             </div>
+             
+         </div>
+     </div>    
+     </div>
+     
+ </footer>
+ <!-----MOD 6 : THE FOOTER---->
        </div><!---./MAIN---> 
     <script src="xdone.js"></script>    
     </body>    
