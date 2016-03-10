@@ -308,7 +308,7 @@
         <!---The articles and news part--->
         <div class="col-lg-12">
           <span class="article-news"> 
-                <h4>Latest News</h4>
+                <h5><b>Latest News</b></h5>
                 <div>
                     <p class="thread">Something Something Something Something Something</p>
                      <span class="article-date">                    
@@ -318,12 +318,16 @@
                 <hr>
                 <div>
                     <p class="thread">Something Something Something Something Something</p>
-                    <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                    <span class="article-date">                    
+                         <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                    </span>
                 </div>
                 <hr>
                 <div>
                     <p class="thread">Something Something Something Something Something</p>
-                    <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                    <span class="article-date">                    
+                         <?php $mydate=getdate(date("U"));echo "$mydate[month] $mydate[mday], $mydate[year]"?>
+                    </span>
                 </div>
             </span>
             
