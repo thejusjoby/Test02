@@ -211,14 +211,17 @@
     </div><!--- ./ About the Company--->
     
     <!-----Services of the Company---->
+    <style>
+        .serv-button {background-color: #FFFAFA;} 
+    </style>
    <div class="services">
    <div class="col-lg-4 services">
        <!---Corporate Video--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">
+         <button type="button" class="list-group-item serv-button">
          <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/corporatevideo.png" />
-         &nbsp;&nbsp;&nbsp;Corporate Video</button>  
+         &nbsp;&nbsp;&nbsp;<span class="text-black">Corporate Video</span></button>  
        </div>
     </div>
    
@@ -226,9 +229,9 @@
        <!---Brochure--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">
+         <button type="button" class="list-group-item serv-button">
          <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/downloadbrochure.png" width="20px"/>
-            &nbsp;&nbsp;&nbsp;Download Brochure</button>  
+            &nbsp;&nbsp;&nbsp;<span class="text-black">Download Brochure</span></button>  
        </div>
     </div>
    
@@ -236,9 +239,9 @@
        <!---Testimonials--->    
         
     <div  class="list-group">
-         <button type="button" class="list-group-item">
+         <button  type="button" class="list-group-item serv-button">
          <img class="pull-left" src="Task_1/assets/1_1_Home_v3_1/testimonials.png" />
-         &nbsp;&nbsp;&nbsp;Testimonials</button>  
+         &nbsp;&nbsp;&nbsp<span class="text-black">Testimonials</span></button>  
        </div>
     </div>
    </div> <!--Main div--->
