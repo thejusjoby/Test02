@@ -343,7 +343,7 @@
     
     <!-----------./ MOD 5----->
     <!----MOD 6 : THE FOOTER---->
- <footer>
+ <footer >
      <div class="footer">
         <div class="container">
             <div class="row foot">
@@ -351,7 +351,7 @@
         <!----Column 1---- Footer--->
             <div class="col-sm-2 col-lg-2 col-md-2">
                 <div class="foot-header">
-                    ABOUT US
+                    ABOUT US.
                 </div>
                 <div class="foot-links">
                     <a href="#">Who we are</a>
@@ -454,11 +454,15 @@
          
            <div class="row">
             
+            <!---Social--->
             <div class="col-lg-3 col-sm-3 col-md-3 social">
                <div class="fb "><a href="#">&nbsp;</a></div>
             </div>
             
+            <!---Copyright---->
             
+            <div class="col-lg-6 pull-right">
+                <p>&copy; Copyright 2008-2014 Company Pte. Ltd. All Rights Reserved. <a href="#">Terms and Conditions.</a></p>
             </div>
          
          
