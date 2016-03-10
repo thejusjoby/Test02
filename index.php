@@ -7,7 +7,7 @@
         <title>XD Studio</title>
         <meta name="description" content="">
         <meta name="author" content="Sagarmoy">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">   
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
         <link href="custom.css" rel="stylesheet" type="text/css" />
          <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -25,14 +25,14 @@
             <span class="row">
                 
                 <!---LOGO--->
-           <span id="logo" class="col-lg-4">
-               <img src="Task_1/assets/assets/XD_screensaver.png" width="240px" height="100px" />
+           <span id="logo" class="col-lg-4 col-md-4 col-sm-4 pull-left">
+               <img src="Task_1/assets/assets/XD_screensaver.png" width="140px" height="80px" />
             </span>
                          
                 <!---Language Selection--->         
-        <div class="pull-right col-lg-8">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-push-3">
         
-         <span class="col-lg-7">   
+         <span class="col-lg-5 col-md-5 col-sm-5 col-md-pull-1">   
             <ul class="nav nav-pills">
                   <li role="presentation" class="active"><a href="#">English</a></li>
                   <li role="presentation"><a href="#">什么</a></li>
@@ -42,7 +42,7 @@
          </span>
                 
               <!---Search Bar---->
-         <span class="col-lg-5 pull-left">     
+         <span class="col-lg-5 col-md-5 col-sm-5 col-md-pull-1 col-lg-pull-1 pull-left">     
                  <div class="input-group">
                   <input type="text" class="form-control" placeholder="Search">
                   <span class="input-group-btn">
@@ -59,7 +59,7 @@
    
         <!----MOD - 1/.--->
         
- <!---------MOD - 2 The Navbar------------->
+ <!---------MOD - 2 The Navbar-------------
   
       <div  style="background-color: #00CED1"class="navbar-wrapper">
         <nav style="background-color: #00CED1" class="navbar navbar-default">
@@ -74,7 +74,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <!---<a class="navbar-brand" href="#">Project name</a>--->
+              <!---<a class="navbar-brand" href="#">Project name</a>---
             </div>
             <div  id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -99,11 +99,17 @@
           </div>
         </nav>  
     </div>
-
+---->
         
         
  <!------./ MOD 2------>       
  
+                        <!----NAVBAR------>
+    <div class="">
+        <nav class="navbar navbar-default"></nav>
+    </div>
+                        
+                        <!----. / NAVBAR------>
         
         <!---------------MOD 3 - THE CAROUSEL-------------->
 <div class="bs-example">
@@ -142,7 +148,7 @@
         
     <div class="container-fluid">
     <div class="row">     
-  <div class="col-lg-8col-md-8 col-sm-8"><!---Thumb Project Rows--->
+  <div class="col-lg-8 col-md-8 col-sm-8"><!---Thumb Project Rows--->
    
    <span><h1>Featured Project</h1></span>
    <div class="container-fluid"><!---Inside Company Content---->
