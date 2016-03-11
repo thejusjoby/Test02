@@ -76,7 +76,7 @@
               </button>
               <!---<a class="navbar-brand" href="#">Project name</a>--->
             </div>
-            <div  id="navbar" class="navbar-collapse collapse hidden-sm">
+            <div  id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#"><img src="Task_1/assets/assets/homeicon.png" /></a></li>
                 <li><a href="#about"><b>About Us</b></a></li>
@@ -104,34 +104,37 @@
  <!------./ MOD 2------>    
  <!---NAV2 VISIBLE SMALL and XSMALL-->
  <div class="navbar-wrapper">
-  <div class="containers">
+  <div class="container-fluid">
     <div class="navbar navbar-default navbar-static-top visible-xs visible-sm hidden-lg hidden-md">
-      
         <div class="navbar-header">
         <a class="navbar-brand pull-right" href="#">LOGO</a>
         <a class="navbar-toggle pull-left" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>         
+          <span class="icon-bar"></span> 
         </a>
-        
         </div>
-
-        <div class="navbar-collapse collapse clearfix">
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="http://www.bootply.com" target="ext">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-            </li>
+            <li class="visible-xs clearfix"><form class="navbar-form navbar-left" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><img src="Task_1/assets/assets/search.png" /></button>
+            </div>
+        </div>
+        </form></li>
           </ul>
      </div>
-
-
+    
+        </div>
+    
     </div>
   </div><!-- /container -->
-</div><!-- /navbar wrapper -->
+</div><!-- /navbar wrapper --><!---NAV2 VISIBLE SMALL and XSMALL-->
 <!--- . Navbar 2--->
 <!---------------MOD 3 - THE CAROUSEL-------------->
 <div style="background-color: #237A72; z-index: 100; box-shadow: 1px 1px 0 0; border-color: #237A72;" class="bs-example">
