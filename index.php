@@ -20,8 +20,8 @@
     <body>
        <div id="main" class="container"> <!----MAIN---->
            
-        <!---MOD - 1. The header containing LOGO and Language Selection--->
-        <div id="head" class="container-fluid">  
+        <!---MOD - 1. The header containing LOGO and Language Selection hidden SMALL and XSMALL--->
+        <div id="head" class="container-fluid hidden-sm hidden-xs">  
             <span class="row">
                 
                 <!---LOGO--->
@@ -59,10 +59,10 @@
    
         <!----MOD - 1/.--->
         
- <!---------MOD - 2 The Navbar------------->
+ <!---------MOD - 2 The Navbar HIdden SMALL and XSMALL------------->
   
-      <div  style="background-color: #00CED1"class="navbar-wrapper">
-        <nav style="background-color: #00CED1" class="navbar navbar-default">
+      <div  style="background-color: #00CED1"class="navbar-wrapper hidden-sm hidden-xs">
+        <nav style="background-color: #00CED1" class="navbar navbar-default hidden-sm ">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -76,7 +76,7 @@
               </button>
               <!---<a class="navbar-brand" href="#">Project name</a>--->
             </div>
-            <div  id="navbar" class="navbar-collapse collapse">
+            <div  id="navbar" class="navbar-collapse collapse hidden-sm">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#"><img src="Task_1/assets/assets/homeicon.png" /></a></li>
                 <li><a href="#about"><b>About Us</b></a></li>
@@ -101,10 +101,40 @@
     </div>
         
         
- <!------./ MOD 2------>       
+ <!------./ MOD 2------>    
+ <!---NAV2 VISIBLE SMALL and XSMALL-->
+ <div class="navbar-wrapper">
+  <div class="containers">
+    <div class="navbar navbar-default navbar-static-top visible-xs visible-sm hidden-lg hidden-md">
+      
+        <div class="navbar-header">
+        <a class="navbar-brand pull-right" href="#">LOGO</a>
+        <a class="navbar-toggle pull-left" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>         
+        </a>
         
-        <!---------------MOD 3 - THE CAROUSEL-------------->
-<div class="bs-example">
+        </div>
+
+        <div class="navbar-collapse collapse clearfix">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="http://www.bootply.com" target="ext">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            </li>
+          </ul>
+     </div>
+
+
+    </div>
+  </div><!-- /container -->
+</div><!-- /navbar wrapper -->
+<!--- . Navbar 2--->
+<!---------------MOD 3 - THE CAROUSEL-------------->
+<div style="background-color: #237A72; z-index: 100; box-shadow: 1px 1px 0 0; border-color: #237A72;" class="bs-example">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
